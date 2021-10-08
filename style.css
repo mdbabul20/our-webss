@@ -1,0 +1,513 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+
+
+/* header sing in button style start */
+
+
+.header-button{
+}
+.header-button button{
+color: white;
+padding: 5px 20px;
+background-color: green;
+border: none;
+
+text-transform: uppercase;
+border-radius: 5px;
+transition: 0.4s;
+}
+
+.header-button button:hover{
+    background-color: black;
+    color: white;
+}
+/* header sing in button style end */
+
+
+
+
+
+/* part one navbar style start */
+
+
+.navbar{
+    
+    
+    
+    background-color: purple;
+    
+}
+
+
+.navbar-nav{
+
+}
+.navbar-nav ul li{
+
+}
+
+.navbar-nav{
+  
+    border-radius: 10px;
+    
+}
+.navbar-nav li a{
+color: white;
+text-transform: uppercase;
+margin-left: 20px;
+font-size: 14px;
+}
+
+.navbar-nav li a:hover{
+color: red;
+}
+
+.color-black{
+margin-right: 50px;
+}
+
+
+
+/* part one navbar style end */
+
+
+
+
+
+
+/* part 2 header style  start*/
+
+.main-header{
+background: url(image/pexels-ella-olsson-1640777.jpg);
+height: 760px;
+
+background-attachment: fixe;
+ width: 100%;
+ position: relative;
+ 
+
+}
+ 
+
+
+
+.main-header::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(10, 10, 10, 0.719);
+}
+
+
+
+
+.header-content{
+z-index:1 ;
+text-align: left
+;
+}
+
+.header-content h1{
+margin-top: 250px;
+color: white;
+font-weight: bold;
+width: 500px;
+font-size: 36px;
+}
+
+.header-content input{
+    padding: 8px 130px;
+    margin-top: 30px;
+}
+
+.header-content button{
+    padding:12px 173px ;
+    border: none;
+    margin-top: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.header-content p{
+    font-style: italic;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+   
+
+.header-svg-image{
+    width: 1300px;
+}
+
+.header-svg-image img{
+    bottom: -170px;
+    z-index: 5;
+   
+width: 100%;
+    position: absolute;
+}
+/* part 2 header style  end*/
+
+
+
+
+
+/* part 3 store section styles start */
+
+
+.main-store-one{
+    background-color: rgba(255, 248, 220, 0.201);
+}
+.main-store{
+    margin-top: ;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.contactus{
+display: flex;
+margin-top: 40px;
+
+}
+
+.contactus i{
+    font-size: 40px;
+    color: rebeccapurple;
+    
+}
+
+.con-call{
+    margin-top: 50px;
+    margin-left: 22px;
+}
+.con-call p{
+    margin-left: 20px;
+    font-size: 17px;
+    color: silver;
+    
+    
+}
+.con-call b{
+    font-size: 18px;
+    margin-top: -25px;
+}
+
+
+/* part 3 store section styles end */
+
+/* part4 our sercvice html start */
+
+
+
+
+
+
+
+
+
+.our-service-header{
+    margin-top: 80px;
+    text-align: center;
+    }
+    
+    .our-service-header b{
+        color: green;
+        font-size: 20px;
+    }
+    
+    .our-service-header h1{
+        font-size: 25px;
+    
+        margin-top: 20px;
+        font-family: fantasy;
+    }
+    
+    
+    
+    
+    
+    .service-card{
+        text-align: center;
+        margin-top: 50px;
+        border: 1px solid rgba(0, 0, 0, 0.174);
+        border-radius: 5px;
+        height: 340px;
+        transition: 1s;
+        position: relative;
+    }
+    
+    .service-card i{
+        font-size: 40px;
+        color: rgb(113, 165, 8);
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .service-card h1{
+        margin-top: 30px;
+        font-size: 23px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    .service-card p{
+        margin: 25px;
+        text-align: center;
+        line-height: 35px;
+    }
+    
+    
+    .service-card::before{
+        content: "";
+        height: 0;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        background-color: purple;
+        z-index: -1;
+        bottom: 0;
+       transition: 0.5s;
+    }
+    
+    .service-card:hover::before{
+        height: 100%;
+    }
+    
+    
+    
+    .service-card:hover{
+    color: white;
+    
+    }
+    
+    
+    
+    .service-card:hover i{
+        color: white;
+        
+        }
+
+
+
+
+
+
+/* part4 our sercvice css end */
+
+
+
+
+
+
+/* patt5 our-company style start */
+
+
+.our-company{
+    margin-top: 90px;
+    
+}
+.our-company b{
+    color: rgb(15, 122, 27);
+}
+
+.our-company h3{
+    margin-top: 20px;
+    line-height: 45px;
+    font-weight: bold;
+    font-size:30px;
+
+}
+.our-company p{
+    color: rgba(22, 18, 18, 0.592);
+    margin-top: 50px;
+}
+.our-company button{
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(7, 138, 18);
+    padding: 8px 20px;
+    border: none;
+    text-transform: uppercase;
+    border-radius:10px ;
+    transition: 0.5;
+
+
+}
+.our-company button:hover{
+   background-color: rebeccapurple;
+}
+
+
+
+
+
+
+.our-company-img{
+    text-align: center;
+}
+.our-company-img img{
+    width: 450px;
+    margin-top: 100px;
+}
+
+/* patt5 our-company style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fotter-section style start */
+
+
+.main-fotter{
+    background-color: black;
+    margin-top: 80px;
+    padding-top: 50px;
+    margin-bottom: -25px;
+}
+
+.fotter-header-content h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.886);
+}
+.fotter-header-content2 h1{
+    font-size: 25px;
+    font-weight: bold;
+    color:purple;
+    margin-top: 25px;
+}
+
+
+
+
+
+.fotter-content-one h4{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.763);
+    margin-bottom: 35px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.fotter-content-one p{
+    margin-top:;
+    color: rgba(255, 255, 255, 0.324);
+    
+    transition: 0.4s;
+}
+.fotter-content-one p:hover{
+    color: purple;
+    margin-left: 5px;
+}
+
+
+.fotter-socialmedia i{
+font-size: 26px;
+color: white;
+margin-left: 10px;
+}
+
+
+.fotter-socialmedia i:hover{
+    color: teal;
+}
+
+
+
+
+.fotter-copyright{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fotter-copyright p{
+    padding-bottom: 20px;
+    color:rgba(255, 255, 255, 0.304);
+}
+/* fotter-section style end */
+
+
+
+
+
